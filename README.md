@@ -56,9 +56,3 @@ RUN apt-get update -y RUN apt-get install mariadb-server -y
 EXPOSE 3306 33060
 
 CMD ["mysqld"]
-
-
-
-
-
-                                        
